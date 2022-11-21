@@ -51,7 +51,6 @@ namespace WebApi.UnitTests.Application.BookOperations.Commands.UpdateBook
             book.Should().NotBeNull();
             book.Title.Should().Be(model.Title);
             book.GenreId.Should().Be(model.GenreId);
-
         }
     }
 }

@@ -13,9 +13,9 @@ namespace WebApi.Application.GenreOperations.Commands.UpdateGenre
 		{
 			_context = context;
 		}
-        public void Handle(int _id)
+        public void Handle()
         {
-			var genre = _context.Genres.SingleOrDefault(x => x.Id == _id);
+			var genre = _context.Genres.SingleOrDefault(x => x.Id == GenreId);
 			if (genre is null)
 				throw new InvalidOperationException("Kitap türü bulunamadı");
 			if (_context.Genres.Any(x => x.Name.ToLower() == Model.Name.ToLower() && x.Id != GenreId))

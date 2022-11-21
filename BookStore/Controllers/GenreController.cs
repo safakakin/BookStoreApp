@@ -71,7 +71,7 @@ namespace WebApi.Controllers
             command.Model = updateGenre;
             UpdateGenreCommandValidator validator = new UpdateGenreCommandValidator();
             validator.ValidateAndThrow(command);
-            command.Handle(id);
+            command.Handle();
             return Ok();
         }
 

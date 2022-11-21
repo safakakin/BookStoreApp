@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebApi.UnitTests
-build_property.ProjectDir = C:\Users\safakakin\Desktop\Deneme-main\Deneme-main\WebApi.UnitTests\
+build_property.ProjectDir = /Users/mariami/Projects/BookStoreApp/WebApi.UnitTests/

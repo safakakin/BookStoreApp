@@ -18,7 +18,7 @@ namespace WebApi.Application.GenreOperations.Commands.DeleteGenre
         {
             var genre = _dbContext.Genres.SingleOrDefault(x => x.Id == GenreId);
             if (genre is null)
-                throw new InvalidOperationException("Silinecek tür bulunamadı");
+                throw new InvalidOperationException("Silinecek tür bulunamadı.");
 
             _dbContext.Genres.Remove(genre);
             _dbContext.SaveChanges();
