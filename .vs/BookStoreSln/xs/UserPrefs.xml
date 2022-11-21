@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{9DDB92A7-D962-49DB-BCEF-107DA7AA4066}|https">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BookStoreSln" expanded="True">
+            <Node name="WebApi" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="BookStoreSln" expanded="True">
+            <Node name="WebApi.UnitTests" expanded="True">
+              <Node name="WebApi.UnitTests.Application.BookOperations.Commands.CreateBook" expanded="True">
+                <Node name="CreateBookCommandTests" expanded="True" />
+                <Node name="CreateBookCommandValidatorTests" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/mariami/Projects/WebApi/BookStore/Controllers/AuthorController.cs" relfile="BookStore/Controllers/AuthorController.cs" line="61" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+</Properties>
