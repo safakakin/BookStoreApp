@@ -31,11 +31,25 @@
     <None Remove="Microsoft.EntityFrameworkCore" />
     <None Remove="Microsoft.EntityFrameworkCore.InMemory" />
     <None Remove="FluentAssertions" />
+    <None Remove="Application\BookOperations\Queries\" />
+    <None Remove="Application\GenreOperations\Queries\" />
+    <None Remove="Application\BookOperations\Queries\GetBookDetail\" />
+    <None Remove="Application\GenreOperations\Queries\GetGenreDetail\" />
+    <None Remove="Application\AuthorOperations\Commands\" />
+    <None Remove="Application\AuthorOperations\Queries\" />
+    <None Remove="Application\AuthorOperations\Queries\GetAuthorDetail\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Application\AuthorOperations\Commands\DeleteAuthor\" />
     <Folder Include="Application\AuthorOperations\Commands\UpdateAuthor\" />
     <Folder Include="Application\GenreOperations\Commands\DeleteGenre\" />
     <Folder Include="Application\GenreOperations\Commands\UpdateGenre\" />
+    <Folder Include="Application\BookOperations\Queries\" />
+    <Folder Include="Application\GenreOperations\Queries\" />
+    <Folder Include="Application\BookOperations\Queries\GetBookDetail\" />
+    <Folder Include="Application\GenreOperations\Queries\GetGenreDetail\" />
+    <Folder Include="Application\AuthorOperations\Commands\" />
+    <Folder Include="Application\AuthorOperations\Queries\" />
+    <Folder Include="Application\AuthorOperations\Queries\GetAuthorDetail\" />
   </ItemGroup>
 </Project>

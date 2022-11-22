@@ -23,14 +23,8 @@ namespace WebApi.Application.AuthorOperations.Commands.CreateAuthor
             var author = _dbContext.Authors.SingleOrDefault(x => x.FirstName == Model.FirstName && x.LastName==Model.LastName);
 
             if (author is not null)
-                throw new InvalidOperationException("Kitap zaten mevcut.");
+                throw new InvalidOperationException("Yazar sistemde zaten mevcut.");
             author = _mapper.Map<Author>(Model);
-            //new Book();
-            //book.Title = Model.Title;
-            //book.PublishDate = Model.PublishDate;
-            //book.PageCount = Model.PageCount;
-            //book.GenreId = Model.GenreId;
-
             _dbContext.Authors.Add(author);
             _dbContext.SaveChanges();
 
